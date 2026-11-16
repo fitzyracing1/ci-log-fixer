@@ -1,0 +1,8 @@
+2026-11-15T14:06:01.0000000Z ##[group]Run pytest -q
+2026-11-15T14:06:02.0000000Z _______________________________ test_add ________________________________
+2026-11-15T14:06:02.1000000Z tests/test_math.py:14: in test_add
+2026-11-15T14:06:02.2000000Z     assert add(1, 1) == 3
+2026-11-15T14:06:02.3000000Z E   AssertionError: assert 2 == 3
+2026-11-15T14:06:02.4000000Z =========================== 1 failed in 0.04s ===========================
+2026-11-15T14:06:02.5000000Z FAILED tests/test_math.py::test_add - AssertionError: assert 2 == 3
+2026-11-15T14:06:02.6000000Z ##[error]Process completed with exit code 1.

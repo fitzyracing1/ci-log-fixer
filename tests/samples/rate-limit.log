@@ -1,0 +1,4 @@
+2026-11-15T14:09:01.0000000Z ##[group]Run docker pull ghcr.io/example/app:ci
+2026-11-15T14:09:02.0000000Z Error response from daemon: toomanyrequests: You have reached your pull rate limit.
+2026-11-15T14:09:03.0000000Z API rate limit exceeded for 13.12.11.10. (But here's the good news: Authenticated requests get a higher rate limit.)
+2026-11-15T14:09:04.0000000Z ##[error]Process completed with exit code 1.

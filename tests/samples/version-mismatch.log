@@ -1,0 +1,7 @@
+2026-11-15T14:02:01.0000000Z ##[group]Run npm ci
+2026-11-15T14:02:02.0000000Z npm ERR! code EBADENGINE
+2026-11-15T14:02:02.1000000Z npm ERR! engine Unsupported engine
+2026-11-15T14:02:02.2000000Z npm ERR! engine Not compatible with your version of node/npm: app@1.0.0
+2026-11-15T14:02:02.3000000Z npm ERR! notsup The engine "node" is incompatible with this module. Expected version ">=20". Got "16.20.2"
+2026-11-15T14:02:02.4000000Z npm ERR! notsup Current Node is v16.20.2
+2026-11-15T14:02:02.5000000Z ##[error]Process completed with exit code 1.
