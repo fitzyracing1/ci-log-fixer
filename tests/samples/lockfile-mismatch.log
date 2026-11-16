@@ -1,0 +1,5 @@
+2026-11-15T14:05:01.0000000Z ##[group]Run npm ci
+2026-11-15T14:05:02.0000000Z npm ERR! cipm can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+2026-11-15T14:05:03.0000000Z npm ERR! `npm ci` can only install packages when your package.json and package-lock.json are in sync
+2026-11-15T14:05:04.0000000Z npm ERR! Missing: lodash@4.17.21 from lock file
+2026-11-15T14:05:05.0000000Z ##[error]Process completed with exit code 1.

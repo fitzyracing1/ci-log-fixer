@@ -1,0 +1,12 @@
+2026-11-15T14:01:02.1111111Z ##[group]Run pytest -q
+2026-11-15T14:01:03.0000000Z ============================= test session starts ==============================
+2026-11-15T14:01:03.2000000Z collected 0 items / 1 error
+2026-11-15T14:01:03.3000000Z 
+2026-11-15T14:01:03.4000000Z ==================================== ERRORS ====================================
+2026-11-15T14:01:03.5000000Z _____________________ ERROR collecting tests/test_app.py ______________________
+2026-11-15T14:01:03.6000000Z ImportError while importing test module '/home/runner/work/app/app/tests/test_app.py'.
+2026-11-15T14:01:03.7000000Z tests/test_app.py:3: in <module>
+2026-11-15T14:01:03.8000000Z     import orjson
+2026-11-15T14:01:03.9000000Z E   ModuleNotFoundError: No module named 'orjson'
+2026-11-15T14:01:04.0000000Z =========================== 1 error in 0.12s ===================================
+2026-11-15T14:01:04.1000000Z ##[error]Process completed with exit code 2.
